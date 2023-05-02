@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: white;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 15px;
+}
+
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: -15px;
+    padding-left: -15px;
+    max-width: 33.333333%;
+}
+
+.work-wrap{
+    background: rgb(166, 166, 237);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.35);
+    margin: 0 0 40px 0;
+    transition: 0.4s;
+    text-align:center;
+    height: 400px;
+}
+
+.work-wrap a{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.work-wrap .img-wrap{
+    width: 80%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto 35px auto;
+}
+
+.work-wrap .work-contn {
+    text-decoration: none;
+    color: rgb(250, 250, 252);
+    font-size: 18px;
+}
+
+
+.work-wrap .work-contn p{
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(240, 241, 244);
+    margin: 0;
+}
+
