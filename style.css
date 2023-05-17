@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+
+*{margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+
+
+.page-container{
+    height: 68vh;
+    width: 100vw;
+    text-align: center;
+    overflow-x: hidden;
+}
+/* NAV
+----------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>. */
+/* Navigation Bar Styling */
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding-right: 0px;
+  margin-top: 10px;
+}
+
+.o1 {
+  padding-right: 20px;
+}
+
+.o2 {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.o3 {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.o4 {
+  padding-left: 30px;
+}
+
+.logo {
+  width: 150px;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 90px;
+  width: 150px;
+  padding-left: 30px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0px 200px;
+}
+
+.navs {
+  color: #234776;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navs:hover {
+  color: #234776;
+}
+
+.active {
+  color: #234776;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.button {
+  margin-right: 30px;
+  padding: 10px 0px;
+  width: 180px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  background-color: #6284b1;
+  color: white;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #6284b1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hamburger Menu */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .options {
+    display: none;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+
+
+
+/* NAV----------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>. */
+
+
+
+
+/* CSS for the responsive and inline footer */
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(35, 71, 118, 0.8); /* Set the background color with opacity */
+  padding: 20px;
+  color: white;
+}
+
+.footer-div {
+  flex-basis: calc(33.33% - 10px); /* Distribute space evenly with 10px margin between divs */
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer-div label {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-div {
+    flex-basis: 100%;
+  }
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 6.4px solid rgba(78, 78, 78, 0.8); /* Set the border color with opacity */
+  animation: spinner-bulqg1 0.8s infinite linear alternate, spinner-oaa3wk 1.6s infinite linear;
+}
+
+/* Rest of the spinner CSS code remains unchanged */
+
